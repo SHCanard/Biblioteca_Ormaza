@@ -1,0 +1,153 @@
+<?php
+$language['lang']="es";
+$language['system_title']="Sistema de Biblioteca";
+$language['home']="Inicio";
+//Books
+$language['books']="Libros";
+$language['book']="Libro";
+$language['book_title']="Título";
+$language['book_title_long']="Título del libro";
+$language['book_title_placeholder']="Escriba aquí el título del libro";
+$language['book_summary']="Resumen";
+$language['book_summary_long']="Resumen del libro";
+$language['book_summary_placeholder']="Escriba aquí el resumen del libro";
+$language['book_link']="Enlace";
+$language['book_link_long']="Enlace externo";
+$language['book_link_placeholder']="Escriba aquí el enlace externo (http://example.com)";
+$language['book_keywords']="Palabras clave";
+$language['book_keywords_long']="Palabras clave";
+$language['book_keywords_placeholder']="Escriba aquí las palabras clave (separados por espacios)";
+$language['book_keywords_list']="Lista de palabras clave";
+$language['book_category']="Categoría";
+$language['book_category_select']="Seleccione la categoría del libro";
+$language['book_medium']="Soporte";
+$language['book_medium_select']="Seleccione el soporte del libro";
+$language['book_author']="Autor";
+$language['book_author_long']="Autor del libro";
+$language['book_author_placeholder']="Escriba aquí el autor del libro";
+$language['book_editor']="Editorial";
+$language['book_editor_long']="Editorial del libro";
+$language['book_editor_placeholder']="Escriba aquí editorial del libro";
+$language['book_ISBN']="ISBN";
+$language['book_ISBN_long']="ISBN del libro";
+$language['book_ISBN_placeholder']="Escriba aquí el ISBN del libro";
+$language['book_inventory_number']="Número de inventario";
+$language['book_inventory_number_long']="Número de inventario del libro";
+$language['book_inventory_number_placeholder']="Escriba aquí el número de inventario del libro";
+$language['book_is_loaned']="¿Está en préstamo?";
+$language['book_edit']="Editar un libro";
+$language['book_add']="Registrar un libro";
+$language['book_list']="Listar libros";
+$language['book_list_name_csv']="Lista_de_libros.csv";
+$language['book_datas']="Datos del libro";
+//Categories
+$language['categories']="Categorías";
+$language['category_edit']="Editar una categoría";
+$language['category_add']="Registar una categoría";
+$language['category_list']="Listar categorías";
+$language['category_datas']="Datos de la categoría";
+$language['category_long']="Codigo y nombre de la categoría";
+$language['category_placeholder']="Escriba aquí el codigo y nombre de la categoría";
+$language['category_example']="Ex : 000 - Generalidades";
+$language['category_booklist'] = "Lista de libros";
+//Media
+$language['media']="Soportes";
+$language['medium_edit']="Editar un soporte";
+$language['medium_add']="Registrar un soporte";
+$language['medium_list']="Listar los soportes";
+$language['medium_datas']="Datos del soporte";
+$language['medium_long']="Codigo y nombre del soporte";
+$language['medium_placeholder']="Escriba aquí el codigo y nombre de los soportes";
+$language['medium_example']="Ex : 000 - Revista";
+$language['medium_booklist'] = "Lista de libros";
+//Loans
+$language['loans']="Préstamos";
+$language['loan_edit']="Editar un préstamo";
+$language['loan_add']="Registrar un préstamo";
+$language['loan_list']="Listar préstamos";
+$language['loan_list_name_csv']="Lista_de_prestamos.csv";
+$language['loan_pending_returns']="Devoluciones pendientes";
+$language['loan_expired']="Préstamos vencidos";
+$language['loan_datas']="Datos de préstamo";
+$language['loan_state']="Estado";
+$language['loan_state_long']="Estado del préstamo";
+$language['loan_state_pending']="Pendiente";
+$language['loan_state_returned']="Entregado";
+$language['loan_return']="Entregar";
+$language['loan_user_select']="Seleccione un usario";
+$language['loan_book_select']="Seleccione un libro";
+$language['loan_date']="Fetcha de préstamo";
+$language['loan_date_return']="Fetcha de devolución";
+$language['loan_date_expired']="Fetcha de vencimiento";
+$language['loan_contact']="Contactar";
+$language['loan_mail_subject']="Su préstamo de";
+//Users
+$language['users']="Usarios";
+$language['user']="Usario";
+$language['user_send_id']="Enviar id.";
+$language['user_firstname']="Nombre";
+$language['user_firstname_long']="Nombre del usario";
+$language['user_firstname_placeholder']="Escriba aquí el nombre del usario";
+$language['user_lastname']="Apellido";
+$language['user_lastname_long']="Apellido del usario";
+$language['user_lastname_placeholder']="Escriba aquí el apellido del usario";
+$language['user_phone']="Teléfono";
+$language['user_phone_long']="Número de teléfono del usario";
+$language['user_phone_placeholder']="Escriba aquí el número de teléfono del usario";
+$language['user_email']="E-mail";
+$language['user_email_long']="Correo electrónico del usuario";
+$language['user_email_placeholder']="Escriba aquí el correo electrónico del usuario";
+$language['user_organization']="Organización";
+$language['user_organization_long']="Organización del usario";
+$language['user_organization_placeholder']="Escriba aquí la organización del usario";
+$language['user_edit']="Editar un usario";
+$language['user_add']="Registrar un usario";
+$language['user_list']="Listar usarios";
+$language['user_datas']="Datos del usario";
+$language['user_send_id_subject']="Sus credenciales en el sistema de la biblioteca";
+$language['user_send_id_body']="Hola,<br><br>Sus datos de acceso son:<br>";
+$language['email_sent']="Correo electrónico enviado!";
+$language['email_error']="Error";
+//DataTables - _ALLCAPS_ are keywords, don't translate them!
+$language['DT_lengthMenu']="Mostrar _MENU_ registros por página";
+$language['DT_info']="Mostrando página _PAGE_ de _PAGES_";
+$language['DT_infoEmpty']="No hay registros disponibles";
+$language['DT_infoFiltered']="(filtrada de _MAX_ registros)";
+$language['DT_loadingRecords']="Cargando...";
+$language['DT_processing']="Procesando...";
+$language['DT_search']="Buscar";
+$language['DT_zeroRecords']="No se encontraron registros coincidentes";
+$language['DT_next']="Siguiente";
+$language['DT_previous']="Anterior";
+// Exit system button
+$language['ESB_title'] = "¿Estás seguro?";
+$language['ESB_text'] = "Quieres salir del sistema y cerrar la sesión actual";
+$language['ESB_confirm'] = "Si, salir";
+$language['ESB_cancel'] = "No, cancelar";
+//Buttons
+$language['reset']="Borrar";
+$language['submit']="Guardar";
+$language['edit']="Actualizar";
+$language['delete']="Eliminar";
+$language['close']="Cerrar";
+$language['csv_generate']="Generar en CSV";
+//Custom errors
+$language['403_title']="Error 403";
+$language['403_text']="Esta página está reservada para usuarios registrados.";
+//Login
+$language['connect']="Inicio sesión";
+$language['connection']="Acceder";
+$language['connection_info']="Usted ya debe tener una cuenta. La inscripción se realiza en el centro de documentación.";
+$language['login']="Usario";
+$language['password']="Contraseña";
+$language['disconnect']="Cerrar la sesión";
+$language['welcome']="Bienvenido";
+//SQL
+$language['no_results']="No hubo resultados";
+$language['connection_error']="Error de conexión";
+//Help
+$language['help']="Ayuda del sistema";
+$language['contact']="Centro de Documentación<br>Horario de apertura :<br>de lunes a viernes de 7h a 11h30 y de 12h a 15h30<br>Tel. : 00 00 00  – E-mail : <a href=\"mailto:documentaliste@cht.nc\">email@email.nc</a>";
+$language['ok']="Enterado";
+$language['map']="Acceso al centro de documentación";
+?>
